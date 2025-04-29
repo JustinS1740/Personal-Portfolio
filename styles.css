@@ -40,6 +40,7 @@ body {
     border-bottom: 1px solid #bdbdbd;
     border-top: 1px solid #bdbdbd;
     -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
     z-index: 10;
 }
 
