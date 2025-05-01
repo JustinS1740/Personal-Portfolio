@@ -115,15 +115,15 @@ div #projects {
     opacity: 0.9;
 }
 
-#project-img {
+.project-img {
     width: 100%;
     height: auto;
 }
 
-#project-img img {
+.project-img img {
     bottom: 0;
     position: relative;
-    width: 10%;
+    width: 20%;
     height: auto;
     margin: 0;
     padding: 0;
