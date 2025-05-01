@@ -1,17 +1,9 @@
 body {
+    margin: 0;
+    padding: 0;
     background-color: #e5e5f7;
     background-size: 10px 10px;
     background-image: repeating-linear-gradient(45deg, #ffffff 0, #ffffff 1px, #EADDCA 0, #EADDCA 50%);
-}
-
-.main {
-    top: 0;
-    position: fixed;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    width: inherit;
-    background-color: white;
 }
 
 .wrapper {
@@ -22,13 +14,35 @@ body {
     box-shadow: 0px 0px 15px #bdbdbd;
 }
 
+.main {
+    top: 0;
+    position: fixed;
+    height: auto;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: inherit;
+    background-color: white;
+}
+
+
+
 #title {
     font-weight: bold;
     font-size: 160%;
     text-align: center;
     padding-top: 2%;
     padding-bottom: 2%;
+    position: relative;
+    height: auto;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+    transition: all 0.3 ease;
+    z-index: 10;
 }
+
 
 #nav {
     text-align: center;
@@ -40,7 +54,10 @@ body {
     border-bottom: 1px solid #bdbdbd;
     border-top: 1px solid #bdbdbd;
     -webkit-transition: all 0.3s ease;
-    transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+    transition: all 0.3 ease;
     z-index: 10;
 }
 
@@ -53,4 +70,62 @@ ul {
 
 li {
     display: inline;
+}
+
+.content {
+    display: none;
+    width: 100%;
+    overflow: hidden;
+}
+
+div #projects {
+    margin-top: 4px;
+    text-align: center;
+    height: auto;
+}
+
+#banner {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    position: relative;
+    transition: opacity 1s ease-out;
+}
+
+#banner img{
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    display: block;
+}
+
+#text {
+    top: 0;
+    overflow: hidden;
+    position: relative;
+    background-color: white;
+    padding: 3%;
+}
+
+#text img:hover {
+    opacity: 0.9;
+}
+
+#project-img {
+    width: 100%;
+    height: auto;
+}
+
+#project-img img {
+    bottom: 0;
+    position: relative;
+    width: 10%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    display: block;
 }
