@@ -19,11 +19,8 @@ window.addEventListener("scroll", () => {
 window.addEventListener('DOMContentLoaded', () => {
     const content = document.querySelector('.content');
     if (content) {
-      // First frame lets DOM settle; second frame triggers transition
-      requestAnimationFrame(() => {
-        requestAnimationFrame(() => {
-          content.classList.add('show');
-        });
-      });
+      setTimeout(() => {
+        content.classList.add('show');
+      }, 50); // 50ms delay
     }
-  });
+});
