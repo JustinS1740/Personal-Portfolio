@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="index.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Contact</title>
+</head>
+<body>
+    <div class="wrapper" style="height: 1750px;">
+        <div class="main">
+            <div id="title">Justin Singsanvong</div>
+            <div id="nav">
+                <ul>
+                    <li><a href="index.html"><i class="fa-regular fa-folder-open"></i> Portfolio</a></li>
+                    <li><a href="Resume 2025.pdf"><i class="fa-regular fa-file-lines"></i> Resume</a></li>
+                    <li><a href="about.html"><i class="fa-regular fa-user"></i> About</a></li>
+                    <li><a href="index.html"><i class="fa-regular fa-paper-plane"></i> Contact</a></li>
+                </ul>
+            </div>
+            <div class="content" style="display:block">
+                <div id="banner" data-scroll-speed="6" style="opacity: 1; margin-top: 0px;"><img src="UW_Bothell.jpg"></div>
+                <div id="text" data-scroll-speed="-9" style="margin-top: 0px;">
+                <div id="contact-container">
+                    <form action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="access_key" value="cd3e1e99-405f-4f6f-a40a-898afdb79a99">
+                        <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
+                        <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
+                        <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>     
+</body>
+</html>
