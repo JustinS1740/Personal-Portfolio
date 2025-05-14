@@ -19,8 +19,10 @@ window.addEventListener("scroll", () => {
 window.addEventListener('DOMContentLoaded', () => {
     const content = document.querySelector('.content');
     if (content) {
-      setTimeout(() => {
+      requestAnimationFrame(() => {
+        requestAnimationFrame(() => {
         content.classList.add('show');
-      }, 50); // 50ms delay
+        });
+      });
     }
 });
