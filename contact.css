@@ -140,33 +140,68 @@ div #projects {
     font-size: 20px;
 }
 
-.about-box {
-    display: flex;
-    align-items: flex-start;
+#text img:hover {
+    opacity: 0.9;
 }
 
-.about-img, .about-text {
-    display: inline;
-    vertical-align: top;
-}
-
-.about-img {
+.project-img {
     width: 100%;
     height: auto;
-    padding-right: 20px
 }
 
-.about-img img {
-    width: 400px;
+.project-img img {
+    bottom: 0;
+    position: relative;
+    width: 20%;
     height: auto;
+    margin: 0;
+    padding: 0;
     display: block;
 }
 
-.about-text {
-    width: 170%;
-    height: auto;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 13.5px;
-    position: relative;
-    bottom: 20px;
+.contact-container {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.contact-left {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+
+.contact-inputs {
+    width: 300px;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 50px;
+    padding-left: 20px;
+    font-weight: 500;
+}
+
+.contact-left textarea {
+    height: 100px;
+    border-radius: 20px;
+    padding-top: 15px;
+}
+
+.contact-inputs:focus {
+    border: 5px solid #096aa6;
+}
+
+.contact-inputs::placeholder {
+    color: #a9a9a9;
+}
+
+.contact-container button {
+    display: flex;
+    align-items: center;
+    padding: 5px 30px;
+    font-size: 16px;
+    color: #ffffff;
+    border: 1px solid black;
+    border-radius: 50px;
+    background: linear-gradient(270deg, #096aa6, #a9a9a9);
+    cursor: pointer;
 }
