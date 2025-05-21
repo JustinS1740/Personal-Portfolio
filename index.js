@@ -10,7 +10,7 @@ document.querySelectorAll("[data-scroll-speed]").forEach(function (el) {
 // banner shrinking/opacity function
 window.addEventListener("scroll", () => {
     const banner = document.querySelector("#banner");
-    const speed = 0.4;
+    const speed = 0.35;
     const offset = -(window.scrollY * speed);
     banner.style.marginTop = `${offset}px`;
     banner.style.opacity = 1 - Math.min(window.scrollY / 300, 1);
