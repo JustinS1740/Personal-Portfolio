@@ -4,6 +4,7 @@ body {
     background-color: #e5e5f7;
     background-size: 10px 10px;
     background-image: repeating-linear-gradient(45deg, #ffffff 0, #ffffff 1px, #EADDCA 0, #EADDCA 50%);
+    height: 1450px;
 }
 
 .wrapper {
@@ -17,7 +18,7 @@ body {
 .main {
     top: 0;
     position: fixed;
-    height: auto;
+    height: 1000px;
     left: 0;
     right: 0;
     margin: 0 auto;
@@ -35,10 +36,7 @@ body {
     position: relative;
     height: auto;
     -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-	-o-transition: all 0.3s ease;
-	-ms-transition: all 0.3s ease;
-    transition: all 0.3 ease;
+    transition: all 0.3s ease;
     z-index: 10;
 }
 
@@ -49,16 +47,13 @@ body {
     font-size: 20px;
     position: relative;
     width: 100%;
-    height: 10%;
+    height: auto;
     padding-top: 1%;
     padding-bottom: 1%;
     border-bottom: 1px solid #bdbdbd;
     border-top: 1px solid #bdbdbd;
     -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-	-o-transition: all 0.3s ease;
-	-ms-transition: all 0.3s ease;
-    transition: all 0.3 ease;
+    transition: all 0.3s ease;
     z-index: 10;
 }
 
@@ -67,10 +62,7 @@ body {
     color: black;
     padding: 30px;
     -webkit-transition: all 0.3s ease;
-	-moz-transition: all 0.3s ease;
-	-o-transition: all 0.3s ease;
-	-ms-transition: all 0.3s ease;
-    transition: all 0.3 ease;
+    transition: all 0.3s ease;
 }
 
 #nav a:hover {
@@ -112,7 +104,7 @@ div #projects {
     padding: 0;
     border: 0;
     position: relative;
-    transition: opacity 1s ease-out;
+    transition: opacity 0.3s ease-out;
 }
 
 #banner img{
@@ -129,19 +121,21 @@ div #projects {
     top: 0;
     overflow: hidden;
     position: relative;
-    background-color: white;
-    height: 1000px;
+    background-color: #f5f1eb;
+    height: 500px;
     padding: 0px 3% 3% 3%;
+    -webkit-transition: all 0.15s ease;
+    transition: all 0.15s ease;
 }
 
 #text h2 {
     font-family: sans-serif; 
     font-weight: bold;
-    font-size: 20px;
+    font-size: 24px;
 }
 
 #text img:hover {
-    opacity: 0.9;
+    opacity: 0.7;
 }
 
 .project-img {
@@ -157,4 +151,30 @@ div #projects {
     margin: 0;
     padding: 0px 50px;
     display: block;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+#footer {
+    display: flex;
+    position: relative;
+    background-color: white;
+    border-top: 1px solid #bdbdbd;
+    font-size: 40px;
+    height: auto;
+    border-bottom: 1px solid #bdbdbd;
+    padding: 5px 0px 5px 35px;
+    gap: 20px;
+
+}
+
+#footer a {
+    color: black;
+    text-decoration: none;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+#footer a:hover {
+    opacity: 0.5;
 }
