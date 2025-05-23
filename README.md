@@ -2,6 +2,8 @@
 
 Welcome to my personal developer portfolio website! This project showcases my skills, projects, and experience in web development, providing a central hub for visitors to learn more about me and my work.
 
+---
+
 ### 🌐 Live Demo
 Check out the live site here: https://justins1740.github.io/Personal-Portfolio/
 
