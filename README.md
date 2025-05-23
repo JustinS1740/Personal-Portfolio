@@ -14,7 +14,7 @@ Check out the live site here: https://justins1740.github.io/Personal-Portfolio/
 - **HTML** – Semantic and accessible structure
 - **CSS** – Modern, responsive design with animations
 - **JavaScript** – Interactivity and DOM manipulation
-- 
+
 ---
 
 ## 🚀 Features
