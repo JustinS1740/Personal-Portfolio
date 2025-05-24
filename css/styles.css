@@ -144,13 +144,13 @@ div #projects {
 }
 
 .project-img img {
-    bottom: 0;
     position: relative;
     width: 15%;
     height: auto;
     margin: 0;
     padding: 0px 50px;
     display: block;
+    border-radius: 50px;
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }

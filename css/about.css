@@ -152,14 +152,16 @@ div #projects {
 
 .about-img img {
     width: 350px;
+    border-radius: 20px;
 }
 
 .about-text {
-    width: 200%;
+    width: auto;
     height: auto;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     font-size: 15px;
     position: relative;
+    padding-left: 35px;
 }
 
 #footer {
