@@ -122,7 +122,7 @@ div #projects {
     overflow: hidden;
     position: relative;
     background-color: #f5f1eb;
-    height: 500px;
+    height: auto;
     padding: 0px 3% 3% 3%;
     -webkit-transition: all 0.15s ease;
     transition: all 0.15s ease;
@@ -136,12 +136,7 @@ div #projects {
 
 .about-box {
     display: flex;
-    align-items: flex-start;
-}
-
-.about-img, .about-text {
-    display: inline;
-    vertical-align: top;
+    align-items: center;
 }
 
 .about-img {
@@ -159,7 +154,7 @@ div #projects {
     width: auto;
     height: auto;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 15px;
+    font-size: auto;
     position: relative;
     padding-left: 35px;
 }
