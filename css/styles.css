@@ -138,19 +138,29 @@ div #projects {
     opacity: 0.7;
 }
 
+.project-block {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.project-block a {
+    border: solid 3px black;
+    display: flex;
+    justify-content: center;
+    width: 15%;
+}
+
 .project-img {
+    display: flex;
+    justify-content: center;
     width: 100%;
     height: auto;
 }
 
 .project-img img {
-    position: relative;
-    width: 15%;
+    width: 100%;
     height: auto;
-    margin: 0;
-    padding: 0px 50px;
-    display: block;
-    border-radius: 50px;
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
